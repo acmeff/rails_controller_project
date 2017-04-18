@@ -9,7 +9,6 @@ class ArtworkShare < ApplicationRecord
 
   belongs_to :artwork
 
-
   private
 
   def only_one_share
